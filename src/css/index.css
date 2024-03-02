@@ -1,0 +1,26 @@
+@import url('./components/navigation.css');
+@import url('./components/main.css');
+@import url('./components/carousel.css');
+
+:root {
+    --first-col: #f3f7fb;
+    --second-col: #1d4c9c;
+    --third-col: #fcc258;
+    --fourth-col: #010101;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--first-col);
+    display: flex;
+    flex-flow: column;
+
+    gap: 30px;
+}

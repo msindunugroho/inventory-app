@@ -1,0 +1,34 @@
+nav {
+    width: 100%;
+    height: 70px;
+    background: var(--second-col);
+    backdrop-filter:blur(10px);
+    padding: 0px 50px;
+    display: flex;
+    flex-flow: row;
+    place-content: center space-between;
+    align-items: center;
+}
+nav .nav_brand {
+    color: var(--third-col);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+nav .nav_search-bar input[type="text"],
+nav .nav_search-bar button[type="button"] {
+    outline: 0;
+    border: 0;
+    height: 25px;
+    background: var(--first-col);
+    border: 1px solid var(--third-col);
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+nav .nav_search-bar button[type="button"] {
+    padding: 0 5px;
+    background: var(--third-col);
+    color: var(--second-col);
+    font-size: 14px;
+    font-weight: bolder;
+}

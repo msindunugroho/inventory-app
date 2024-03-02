@@ -1,0 +1,7 @@
+main {
+    width: 100%;
+    height: max-content;
+    display: inherit;
+    place-content: center;
+    align-items: center;
+}

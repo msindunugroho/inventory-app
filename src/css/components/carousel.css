@@ -1,0 +1,33 @@
+section#carousel {
+    width: 90vw;
+    background: var(--second-col);
+    padding: 30px;
+    border-radius: 15px;
+}
+section#carousel h1 {
+    color: var(--third-col);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+section#carousel .container {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-auto-rows: repeat(auto-fill, max-content) ;
+}
+section#carousel .container .ingridient_item .ingridient_name {
+    display: inline-block;
+    width: 75px;
+    text-transform: capitalize;
+    color: var(--first-col);
+}
+
+section#carousel .container .ingridient_item .ingridient_total::before {
+    content: ": ";
+    color: var(--first-col);
+}
+section#carousel .container .ingridient_item .ingridient_total {
+    color: var(--third-col);
+}
